@@ -5,7 +5,7 @@ Create a Gazebo World enviroment which includes a building and robot models. Thi
 
 ## Instructions
 
-1. Clone this repo.
+1. Clone this repo into a folder called `myrobot`.
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake ../ && make`
 4. Add plugin path: `export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:***add your directory***/myrobot/build`
